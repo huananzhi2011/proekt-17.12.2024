@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Регистрация</h1>
+    </header>
+    <main class="main">
+        <!--/ Форма "Войдите в профиль" -->
+            <!-- Форма "Регистрация" -->
+            <section class="popup">
+                <button class="popup__close" type="button"><img src="image/close.png" alt="Закрыть окно" width="24"
+                        height="24"></button>
+                <h2 class="popup__title">Регистрация</h2>
+                <form class="popup__form form" action="/" method="post">
+                    <input class="form__field" type="text" name="name" placeholder="Имя" required>
+                    <input class="form__field" type="email" name="email" placeholder="Логин" required>
+                    <fieldset class="form__fieldset">
+                        <div class="form__field-block">
+                            <input class="form__field" type="password" name="password" placeholder="Пароль" required>
+                            <span>Минимум 8 символов</span>
+                        </div>
+                        <input class="form__field" type="password" name="repeat-password" placeholder="Повторите пароль"
+                        required>
+                    </fieldset>
+                    <fieldset class="form__buttons">
+                        <button class="button" type="submit">Зарегистрироваться</button>
+                        <button class="button" type="button">Отмена</button>
+                    </fieldset>
+                    <button class="button" type="button">У меня уже есть аккаунт</button>
+                </form>
+            </section>
+    </main>
+    <footer class="footer">
+        <nav class="footer__menu">
+            <ul class="footer__list">
+                <li class="footer__item"><a class="footer__link" href="saport.html" target="_blank"> Поддержка</a></li>
+                <li class="footer__item"><a class="footer__link" href="kont.html" target="_blank"> Контакты</a></li>
+                <li class="footer__item"><a class="footer__link" href="socset.html" target="_blank"> Социальные сети</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

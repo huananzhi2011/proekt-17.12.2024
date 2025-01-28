@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    background-color: green;
+    color: white;
+    font-family: 'popins', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    font-style: italic;
+}
+.header__list{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.header__link{
+    text-decoration: none;
+}
